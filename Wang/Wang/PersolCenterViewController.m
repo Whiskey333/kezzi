@@ -22,7 +22,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.title = @"首页";
     
     self.persolCenterListTableView.backgroundColor = [UIColor blueColor];
     UINib *nib = [UINib nibWithNibName:@"PersolCenterListTableViewCell" bundle:nil];
