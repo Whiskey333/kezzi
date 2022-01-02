@@ -1,0 +1,8 @@
+platform :ios, '12.0'
+
+target 'Wang' do
+
+pod 'AFNetworking', '~> 4.0.1'
+
+end
+ 

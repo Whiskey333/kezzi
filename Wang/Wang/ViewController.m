@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"jjj";
+    self.title = @"一年";
     
     self.avatarImageView.layer.cornerRadius = 8;
     [self.nicknameButton setTitle:@"iphone1111" forState:UIControlStateNormal];
