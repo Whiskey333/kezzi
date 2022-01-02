@@ -22,6 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    self.title = @"四季花"；
     
     self.persolCenterListTableView.backgroundColor = [UIColor blueColor];
     UINib *nib = [UINib nibWithNibName:@"PersolCenterListTableViewCell" bundle:nil];
