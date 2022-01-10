@@ -9,6 +9,8 @@
 
 #import "PersolCenterListTableViewCell.h"
 
+#import "XiaoViewController.h"
+
 @interface PersolCenterViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *persolCenterListTableView;
@@ -47,6 +49,8 @@
 //MARK: —— UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSLog(@"%@",indexPath);
+    XiaoViewController *xiaoview = [[XiaoViewController alloc] init];
+    [self.navigationController pushViewController:xiaoview animated:NO];
 }
 
 //MARK: —— Lazy

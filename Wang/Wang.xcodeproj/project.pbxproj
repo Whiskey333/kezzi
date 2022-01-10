@@ -22,6 +22,7 @@
 		01C8094C2780012500F2436F /* WangUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C8094B2780012500F2436F /* WangUITestsLaunchTests.m */; };
 		01C8095B278017AE00F2436F /* PersolCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C80959278017AE00F2436F /* PersolCenterViewController.m */; };
 		01C8095C278017AE00F2436F /* PersolCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C8095A278017AE00F2436F /* PersolCenterViewController.xib */; };
+		01D2519D2781925300BC6E22 /* XiaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D2519C2781925300BC6E22 /* XiaoViewController.m */; };
 		01EEB5BB278179EC00D8B06B /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EEB5BA278179EC00D8B06B /* MyObject.m */; };
 		87164058439BE346BD8B8312 /* libPods-Wang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D9E24C9F20CECE742C119C /* libPods-Wang.a */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,8 @@
 		01C80958278017AE00F2436F /* PersolCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersolCenterViewController.h; sourceTree = "<group>"; };
 		01C80959278017AE00F2436F /* PersolCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersolCenterViewController.m; sourceTree = "<group>"; };
 		01C8095A278017AE00F2436F /* PersolCenterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersolCenterViewController.xib; sourceTree = "<group>"; };
+		01D2519B2781925300BC6E22 /* XiaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaoViewController.h; sourceTree = "<group>"; };
+		01D2519C2781925300BC6E22 /* XiaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiaoViewController.m; sourceTree = "<group>"; };
 		01EEB5B9278179EC00D8B06B /* MyObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
 		01EEB5BA278179EC00D8B06B /* MyObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
 		A2D9E24C9F20CECE742C119C /* libPods-Wang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +143,8 @@
 				01B3DBBD27802A62001D02C0 /* PersolCenterListTableViewCell.h */,
 				01B3DBBE27802A62001D02C0 /* PersolCenterListTableViewCell.m */,
 				01B3DBBF27802A62001D02C0 /* PersolCenterListTableViewCell.xib */,
+				01D2519B2781925300BC6E22 /* XiaoViewController.h */,
+				01D2519C2781925300BC6E22 /* XiaoViewController.m */,
 				01C809292780012300F2436F /* Main.storyboard */,
 				01C8092F2780012500F2436F /* Assets.xcassets */,
 				01C809312780012500F2436F /* LaunchScreen.storyboard */,
@@ -173,7 +178,6 @@
 				B567FA205AA6D5A787679DDC /* Pods-Wang.debug.xcconfig */,
 				E23A4803B873ACBD2E1B6A34 /* Pods-Wang.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -344,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01C8095B278017AE00F2436F /* PersolCenterViewController.m in Sources */,
+				01D2519D2781925300BC6E22 /* XiaoViewController.m in Sources */,
 				01C809362780012500F2436F /* main.m in Sources */,
 				01EEB5BB278179EC00D8B06B /* MyObject.m in Sources */,
 				01C809282780012300F2436F /* ViewController.m in Sources */,
