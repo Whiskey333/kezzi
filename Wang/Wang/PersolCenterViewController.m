@@ -50,7 +50,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSLog(@"%@",indexPath);
     XiaoViewController *xiaoview = [[XiaoViewController alloc] init];
-    [self.navigationController pushViewController:xiaoview animated:NO];
+    [self.navigationController pushViewController:xiaoview animated:YES];
 }
 
 //MARK: —— Lazy

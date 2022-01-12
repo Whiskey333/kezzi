@@ -21,10 +21,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"一年";
+    self.title = @"一年四季&花中四君子";
     
     self.avatarImageView.layer.cornerRadius = 8;
-    [self.nicknameButton setTitle:@"iphone1111" forState:UIControlStateNormal];
+    [self.nicknameButton setTitle:@"看看列表呀！" forState:UIControlStateNormal];
+    
+    UILabel *haoLabel = [[UILabel alloc] initWithFrame:CGRectMake(52, 220, 500, 100)];
+    haoLabel.text = @"一年四季为：春夏秋冬";
+    haoLabel.textColor = [UIColor blackColor];
+    [self.view addSubview:haoLabel];
+    
+    UILabel *qinLabel = [[UILabel alloc] initWithFrame:CGRectMake(52, 270, 500, 100)];
+    qinLabel.text = @"花中四君子为：梅兰竹菊";
+    qinLabel.textColor = [UIColor blackColor];
+    [self.view addSubview:qinLabel];
+    
     
 }
 
@@ -33,10 +44,5 @@
     [self.navigationController pushViewController:persolCenterVc animated:YES];
 
 }
-
-+ (void)aaa {
-    
-}
-
 
 @end
